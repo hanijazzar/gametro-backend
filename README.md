@@ -1,2 +1,2 @@
-# gametro
-Gametro app
+# gametro-backend
+Backend for gametro app
