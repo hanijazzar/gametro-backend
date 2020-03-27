@@ -1,0 +1,36 @@
+{
+  "name": "gametro-backend",
+  "version": "1.0.0",
+  "description": "gametro app for gamers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "jest"
+  },
+  "author": "Hani Jazzar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-redis": "^2.0.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "jw-paginate": "^1.0.4",
+    "log4js": "^6.1.2",
+    "mongoose": "^5.7.12",
+    "redis": "^3.0.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.0.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.1"
+  }
+}

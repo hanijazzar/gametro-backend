@@ -1,0 +1,14 @@
+[2020-03-22T15:51:50.669] [INFO] logFile - pagenumber1 message1
+[2020-03-22T15:52:57.353] [INFO] userLog - pagenumber1 { msg: 'done' }
+[2020-03-22T15:53:42.770] [INFO] userLog - pagenumber1 { msg: 'done' }
+[2020-03-22T15:53:48.606] [INFO] userLog - pagenumber1 { msg: 'done' }
+[2020-03-22T15:56:25.250] [INFO] userLog - pagenumber1 { msg: 'don2e' }
+[2020-03-22T15:56:26.668] [INFO] userLog - pagenumber1 { msg: 'don2e' }
+[2020-03-22T15:56:59.589] [DEBUG] userLog - Logging field NaN : NaN
+[2020-03-22T15:57:57.962] [ERROR] userLog - Logging field NaN : NaN
+[2020-03-22T15:58:57.365] [INFO] userLog - Logging field NaN : NaN
+[2020-03-22T16:00:49.784] [DEBUG] userLog - Logging field: pagenumber1: [object Object]
+[2020-03-22T16:01:00.806] [DEBUG] userLog - Logging field: pagenumber1: [object Object]
+[2020-03-22T16:01:30.590] [DEBUG] userLog - Logging field: pagenumber1: {"msg":"don2e"}
+[2020-03-22T16:01:55.389] [INFO] userLog - Logging field: pagenumber1: {"msg":"don2e"}
+[2020-03-22T16:02:03.381] [INFO] userLog - Logging field: pagenumber1: "dfd"
