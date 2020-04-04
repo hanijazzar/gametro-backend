@@ -1,7 +1,7 @@
 const express = require('express');
 const fileUpload = require('express-fileupload');
 const connectDB = require('./config/db');
-const redis = require('redis');
+// const redis = require('redis');
 const expressRedis = require('express-redis');
 
 
@@ -10,7 +10,7 @@ const expressRedis = require('express-redis');
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-const REDIS_PORT = process.env.PORT || 6379;
+// const REDIS_PORT = process.env.PORT || 6379;
 
 // const redisClient = redis.createClient(REDIS_PORT);
 

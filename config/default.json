@@ -1,6 +1,4 @@
 {
   "mongoURI": "mongodb://localhost:27017/gametro",
-  "jwtSecret": "secret",
-  "githubClientId": "",
-  "githubSecret": ""
+  "jwtSecret": "secret"
 }

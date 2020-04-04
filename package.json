@@ -2,7 +2,7 @@
   "name": "gametro-backend",
   "version": "1.0.0",
   "description": "gametro app for gamers",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
