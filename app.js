@@ -2,7 +2,7 @@ const express = require('express');
 const fileUpload = require('express-fileupload');
 const connectDB = require('./config/db');
 // const redis = require('redis');
-const expressRedis = require('express-redis');
+// const expressRedis = require('express-redis');
 
 
 
@@ -21,7 +21,7 @@ connectDB();
 app.use(express.json({extended: false}));
 
 // Redis middleware
-app.use(expressRedis());
+// app.use(expressRedis());
 
 // For file upload
 app.use(fileUpload());
